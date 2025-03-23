@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TiendaApplication",
+            "request": "launch",
+            "mainClass": "tienda.TiendaApplication"
+        },
+        {
+            "type": "java",
+            "name": "TiendaApplication",
+            "request": "launch",
+            "mainClass": "Backend.com.example.tienda.tienda.TiendaApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TiendaApplication<tienda>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Backend.com.example.tienda.tienda.TiendaApplication",
+            "projectName": "tienda",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
